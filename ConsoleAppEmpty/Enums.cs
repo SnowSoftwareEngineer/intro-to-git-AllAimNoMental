@@ -8,13 +8,13 @@ namespace GameEnums
 {
     enum GameDifficulty
     {
-        Easy, 
+        Easy = 1, 
         Medium, 
         Hard
     }
     enum CharacterClass
     {
-        Warrior, 
+        Warrior = 1, 
         Mage, 
         Rogue
     }

@@ -22,7 +22,50 @@ public class Program
         Console.WriteLine("Five plus 10 is " + result);
 
 
+        Console.WriteLine("Please select a difficulty");
+        Console.WriteLine("1.Easy");
+        Console.WriteLine("2.Medium");
+        Console.WriteLine("3.Hard");
 
+        int userInput = int.Parse(Console.ReadLine());
+
+        switch ((GameDifficulty)userInput)
+        {
+            case GameDifficulty.Easy:
+                Console.WriteLine("Game difficulty set to easy");
+                break;
+
+            case GameDifficulty.Medium:
+                Console.WriteLine("Game difficulty set to medium");
+                break;
+
+            case GameDifficulty.Hard:
+                Console.WriteLine("Game difficulty set to hard");
+                break;
+        }
+
+
+        Console.WriteLine("Please select a character class");
+        Console.WriteLine("1.Warrior");
+        Console.WriteLine("2.Mague");
+        Console.WriteLine("3.Rogue");
+
+        int userInput2 = int.Parse(Console.ReadLine());
+
+        switch ((CharacterClass)userInput2)
+        {
+            case CharacterClass.Warrior:
+                Console.WriteLine("You class is warrior");
+                break;
+
+            case CharacterClass.Mage:
+                Console.WriteLine("You class is Mage");
+                break;
+
+            case CharacterClass.Rogue:
+                Console.WriteLine("You class Rogue");
+                break;
+        }
 
     }
 }
