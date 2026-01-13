@@ -1,4 +1,5 @@
-﻿public class Program
+﻿using GameEnums;
+public class Program
 {
     static void Main(string[] args)
     {
