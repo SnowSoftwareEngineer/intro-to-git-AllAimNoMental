@@ -66,6 +66,14 @@ public class Program
                 Console.WriteLine("You class Rogue");
                 break;
         }
+         Console.WriteLine(" ");
+        GameDifficulty info = (GameDifficulty)userInput;
+        CharacterClass info2 = (CharacterClass)userInput2;
+
+        Console.WriteLine("You selected:");
+        Console.WriteLine(" ");
+        Console.WriteLine("Difficulty: " + info);
+        Console.WriteLine("Character Class: " + info2);
 
     }
 }
